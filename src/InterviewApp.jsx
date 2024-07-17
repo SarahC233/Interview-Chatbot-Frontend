@@ -16,12 +16,15 @@ function InterviewApp() {
   const handleUserInputSubmit = async () => {
     setLoading(true);
     try {
-      const response = await axios.post("http://localhost:3001/api/interview", {
-        jobTitle,
-        userInput,
-        chat,
-        questionCount,
-      });
+      const response = await axios.post(
+        "https://interview-chatbot-backend-delta.vercel.app/api/interview",
+        {
+          jobTitle,
+          userInput,
+          chat,
+          questionCount,
+        }
+      );
       setChat([...chat, { user: userInput }, { ai: response.data.content }]);
       setUserInput("");
       setQuestionCount(response.data.questionCount);
