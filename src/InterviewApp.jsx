@@ -69,7 +69,7 @@ function InterviewApp() {
                     {message.user}
                   </div>
                   <img
-                    src="/user-img.jpg"
+                    src={process.env.PUBLIC_URL + "/user-img.jpg"}
                     alt="User Avatar"
                     className={styles.avatar}
                   />
@@ -78,7 +78,7 @@ function InterviewApp() {
               {message.ai && (
                 <>
                   <img
-                    src="/AI-profile-img.jpg"
+                    src={process.env.PUBLIC_URL + "/AI-profile-img.jpg"}
                     alt="AI Avatar"
                     className={styles.avatar}
                   />
