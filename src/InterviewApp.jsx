@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import styles from "./InterviewApp.module.css";
-import BounceLoader from "react-spinners/BounceLoader"; 
+import BounceLoader from "react-spinners/BounceLoader";
 
 function InterviewApp() {
   const [jobTitle, setJobTitle] = useState("");
@@ -69,7 +69,7 @@ function InterviewApp() {
                     {message.user}
                   </div>
                   <img
-                    src="/user-img.jpg"
+                    src={`${process.env.PUBLIC_URL}/user-img.jpg`}
                     alt="User Avatar"
                     className={styles.avatar}
                   />
@@ -78,7 +78,7 @@ function InterviewApp() {
               {message.ai && (
                 <>
                   <img
-                    src="/AI-profile-img.jpg"
+                    src={`${process.env.PUBLIC_URL}/AI-profile-img.jpg`}
                     alt="AI Avatar"
                     className={styles.avatar}
                   />
