@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Interview-Chatbot-Frontend/static/css/main.152fc833.css",
+    "main.css": "/Interview-Chatbot-Frontend/static/css/main.5413337b.css",
     "main.js": "/Interview-Chatbot-Frontend/static/js/main.70999377.js",
     "index.html": "/Interview-Chatbot-Frontend/index.html",
-    "main.152fc833.css.map": "/Interview-Chatbot-Frontend/static/css/main.152fc833.css.map",
+    "main.5413337b.css.map": "/Interview-Chatbot-Frontend/static/css/main.5413337b.css.map",
     "main.70999377.js.map": "/Interview-Chatbot-Frontend/static/js/main.70999377.js.map"
   },
   "entrypoints": [
-    "static/css/main.152fc833.css",
+    "static/css/main.5413337b.css",
     "static/js/main.70999377.js"
   ]
 }
