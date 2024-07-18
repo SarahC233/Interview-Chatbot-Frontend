@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #282c34; /* Dark background for the page */
+  background-color: #282c34; 
 }
 
 .App {
@@ -104,28 +104,6 @@ h1 {
   align-self: flex-start;
 }
 
-/* .bubble::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  width: 0;
-  height: 0;
-}
-
-.userBubble::after {
-  border: 10px solid transparent;
-  border-right-color: #d1f7c4;
-  right: -20px;
-  transform: translateY(-50%);
-}
-
-.aiBubble::after {
-  border: 10px solid transparent;
-  border-left-color: #f1f1f1;
-  left: -20px;
-  transform: translateY(-50%);
-} */
-
 .inputContainer {
   display: flex;
   flex-direction: column;
@@ -177,15 +155,15 @@ h1 {
   .inputBoxContainer {
     flex-direction: column;
     align-items: center;
-    width: 100%; 
+    width: 100%;
   }
 
   .label {
-    margin-bottom: 5px; 
-    margin-right: 0; 
+    margin-bottom: 5px;
+    margin-right: 0;
   }
 
   .inputBox {
-    width: 80%; 
+    width: 80%;
   }
 }
