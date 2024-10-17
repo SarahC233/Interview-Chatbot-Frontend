@@ -2,7 +2,7 @@
 
 The Interview Skills Chatbot is designed to assist job seekers by providing a platform for practicing their interview skills. The chatbot simulates an interview, asking questions based on the field selected by the user and providing real-time feedback to help improve their responses.
 
-![Interview Chatbot Example](./public/example.png "Interview Chatbot Example")
+<img src="./public/example.png" alt="Interview Chatbot Example" width="400"/>
 
 You can access the deployed frontend here: [Interview Chatbot Frontend](https://sarahc233.github.io/Interview-Chatbot-Frontend/).
 
